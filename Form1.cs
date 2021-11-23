@@ -33,7 +33,7 @@ namespace WinFormsApp1
 
         private void вихідToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -102,6 +102,32 @@ namespace WinFormsApp1
 
         private void button2_Click(object sender, EventArgs e)
         {
+            
+            
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void вихідToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void відкритиToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            saveFileDialog1.FileName = "";
+            openFileDialog1.Filter = "CSV file(*.csv)|*.csv|Text file(*.txt)|*.txt|All files(*.*)|*.*";
+            if (openFileDialog1.ShowDialog() == DialogResult.Cancel)
+                return;
+            label7.Text = openFileDialog1.FileName;
+        }
+
+        private void створитиToolStripMenuItem_Click(object sender, EventArgs e)
+        {
             openFileDialog1.FileName = "";
             string curdate = "MailUserList_" + DateTime.Now.ToString("dd-MM-yy_HH-mm-ss");
             saveFileDialog1.Filter = "CSV file(*.csv)|*.csv|Text file(*.txt)|*.txt|All files(*.*)|*.*";
@@ -111,7 +137,7 @@ namespace WinFormsApp1
             // получаем выбранный файл
             label7.Text = saveFileDialog1.FileName;
             string filename1 = saveFileDialog1.FileName;
-            
+
 
             // сохраняем текст в файл
             // System.IO.File.WriteAllText(filename, textBox1.Text);
@@ -119,17 +145,6 @@ namespace WinFormsApp1
             StreamWriter f_out = new StreamWriter(filename1, true);
             f_out.WriteLine("First Name [Required],Last Name [Required],Email Address [Required],Password [Required],Password Hash Function [UPLOAD ONLY],Org Unit Path [Required],New Primary Email [UPLOAD ONLY],Recovery Email,Home Secondary Email,Work Secondary Email,Recovery Phone [MUST BE IN THE E.164 FORMAT],Work Phone,Home Phone,Mobile Phone,Work Address,Home Address,Employee ID,Employee Type,Employee Title,Manager Email,Department,Cost Center,Building ID,Floor Name,Floor Section,Change Password at Next Sign-In,New Status [UPLOAD ONLY]");
             f_out.Close();
-            
-
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            saveFileDialog1.FileName = "";
-            openFileDialog1.Filter = "CSV file(*.csv)|*.csv|Text file(*.txt)|*.txt|All files(*.*)|*.*";
-            if (openFileDialog1.ShowDialog() == DialogResult.Cancel)
-                return;
-            label7.Text = openFileDialog1.FileName;
         }
     }
 }

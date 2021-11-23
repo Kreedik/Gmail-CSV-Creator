@@ -39,6 +39,9 @@ namespace WinFormsApp1
             this.button1 = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.настройкаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.створитиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.відкритиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.вихідToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -46,10 +49,8 @@ namespace WinFormsApp1
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.button2 = new System.Windows.Forms.Button();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.button3 = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -112,7 +113,7 @@ namespace WinFormsApp1
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(376, 188);
+            this.button1.Location = new System.Drawing.Point(376, 130);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(359, 23);
             this.button1.TabIndex = 7;
@@ -133,18 +134,41 @@ namespace WinFormsApp1
             // настройкаToolStripMenuItem
             // 
             this.настройкаToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.створитиToolStripMenuItem,
+            this.відкритиToolStripMenuItem,
+            this.toolStripMenuItem2,
             this.вихідToolStripMenuItem});
             this.настройкаToolStripMenuItem.Name = "настройкаToolStripMenuItem";
-            this.настройкаToolStripMenuItem.Size = new System.Drawing.Size(101, 20);
-            this.настройкаToolStripMenuItem.Text = "Налаштування";
+            this.настройкаToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
+            this.настройкаToolStripMenuItem.Text = "Файл";
             this.настройкаToolStripMenuItem.Click += new System.EventHandler(this.настройкаToolStripMenuItem_Click);
+            // 
+            // створитиToolStripMenuItem
+            // 
+            this.створитиToolStripMenuItem.Name = "створитиToolStripMenuItem";
+            this.створитиToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.створитиToolStripMenuItem.Text = "Створити";
+            this.створитиToolStripMenuItem.Click += new System.EventHandler(this.створитиToolStripMenuItem_Click);
+            // 
+            // відкритиToolStripMenuItem
+            // 
+            this.відкритиToolStripMenuItem.Name = "відкритиToolStripMenuItem";
+            this.відкритиToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.відкритиToolStripMenuItem.Text = "Відкрити";
+            this.відкритиToolStripMenuItem.Click += new System.EventHandler(this.відкритиToolStripMenuItem_Click);
+            // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem2.Text = "1";
             // 
             // вихідToolStripMenuItem
             // 
             this.вихідToolStripMenuItem.Name = "вихідToolStripMenuItem";
-            this.вихідToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
+            this.вихідToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.вихідToolStripMenuItem.Text = "Вихід";
-            this.вихідToolStripMenuItem.Click += new System.EventHandler(this.вихідToolStripMenuItem_Click);
+            this.вихідToolStripMenuItem.Click += new System.EventHandler(this.вихідToolStripMenuItem_Click_1);
             // 
             // label2
             // 
@@ -202,29 +226,9 @@ namespace WinFormsApp1
             this.checkBox1.UseVisualStyleBackColor = true;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(376, 130);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(359, 23);
-            this.button2.TabIndex = 15;
-            this.button2.Text = "Створити";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(376, 159);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(359, 23);
-            this.button3.TabIndex = 16;
-            this.button3.Text = "Відкрити";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // label7
             // 
@@ -240,8 +244,6 @@ namespace WinFormsApp1
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(751, 255);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -278,7 +280,6 @@ namespace WinFormsApp1
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem настройкаToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem вихідToolStripMenuItem;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
@@ -286,11 +287,13 @@ namespace WinFormsApp1
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.CheckBox checkBox1;
         public System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
-        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.ToolStripMenuItem створитиToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem відкритиToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem вихідToolStripMenuItem;
     }
 }
 
