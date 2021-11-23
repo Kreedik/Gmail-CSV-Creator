@@ -109,6 +109,7 @@ namespace WinFormsApp1
             if (saveFileDialog1.ShowDialog() == DialogResult.Cancel)
                 return;
             // получаем выбранный файл
+            label7.Text = saveFileDialog1.FileName;
             string filename1 = saveFileDialog1.FileName;
             
 
@@ -128,6 +129,7 @@ namespace WinFormsApp1
             openFileDialog1.Filter = "CSV file(*.csv)|*.csv|Text file(*.txt)|*.txt|All files(*.*)|*.*";
             if (openFileDialog1.ShowDialog() == DialogResult.Cancel)
                 return;
+            label7.Text = openFileDialog1.FileName;
         }
     }
 }
