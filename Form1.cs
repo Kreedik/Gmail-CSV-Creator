@@ -125,6 +125,7 @@ namespace WinFormsApp1
         private void button3_Click(object sender, EventArgs e)
         {
             saveFileDialog1.FileName = "";
+            openFileDialog1.Filter = "CSV file(*.csv)|*.csv|Text file(*.txt)|*.txt|All files(*.*)|*.*";
             if (openFileDialog1.ShowDialog() == DialogResult.Cancel)
                 return;
         }
