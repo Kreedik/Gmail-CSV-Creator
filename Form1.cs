@@ -58,14 +58,34 @@ namespace WinFormsApp1
             }
             return pass;
         }
+        
 
-      
+
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //змінна з адресою пошти
+            string mailaddr = "";
+            //транслітерація імені
+            string val = textBox2.Text;
+            TranslitMethods.Translitter trn = new TranslitMethods.Translitter();
+            string str = trn.Translit(val, TranslitMethods.TranslitType.Gost);
+            
+            //захоплення першої літери з імені
+            var firstLetters = new String(str.Split(' ').Select(x => x[0]).ToArray());
+            
+            //транслітерація прізвища
+            string val2 = textBox1.Text;
+            TranslitMethods.Translitter trn2 = new TranslitMethods.Translitter();
+            string str2 = trn2.Translit(val2, TranslitMethods.TranslitType.Gost);
+            //змінна складання адреси пошти
+            mailaddr = firstLetters + "." + str2;
 
-            
-            
+
+            //перевірка проміжна
+            textBox7.Text = mailaddr;
+
+
             string pass = GetPass(8);
             string ch;
             if (checkBox1.Checked == true)
@@ -100,7 +120,7 @@ namespace WinFormsApp1
                         
         }
 
-       
+        
 
         private void вихідToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
@@ -158,15 +178,6 @@ namespace WinFormsApp1
             TranslitMethods.Translitter trn = new TranslitMethods.Translitter();
             string str = trn.Translit(val, TranslitMethods.TranslitType.Gost);
             textBox7.Text  = str;
-
-
-
-
-
-
-
-
-
 
 
         }
