@@ -89,8 +89,7 @@ namespace WinFormsApp1
             if (comboBox1.Text.Length == 0)
             return;
             else
-
-             mailaddr = firstLetters + "." + str2 + comboBox1.Text;
+            mailaddr = firstLetters + "." + str2 + comboBox1.Text;
             
 
             //результат
