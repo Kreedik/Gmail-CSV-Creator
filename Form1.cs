@@ -14,14 +14,14 @@ namespace WinFormsApp1
 {
     public partial class Form1 : Form
     {
-
+        private string stringToPrint;
         public Form1()
         {
             InitializeComponent();
             Text = "Google Mail CSV Creator";
             saveFileDialog1.FileName = "";
             openFileDialog1.FileName = "";
-
+            
         }
 
         
@@ -151,6 +151,9 @@ namespace WinFormsApp1
             
         }
 
-       
+        
+
+      
+
     }
 }
