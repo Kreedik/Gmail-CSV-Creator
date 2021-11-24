@@ -66,6 +66,7 @@ namespace WinFormsApp1
         {
             //змінна з адресою пошти
             string mailaddr = "";
+            string domain = "";
             //транслітерація імені
             string val = textBox2.Text;
             TranslitMethods.Translitter trn = new TranslitMethods.Translitter();
@@ -79,11 +80,17 @@ namespace WinFormsApp1
             TranslitMethods.Translitter trn2 = new TranslitMethods.Translitter();
             string str2 = trn2.Translit(val2, TranslitMethods.TranslitType.Gost);
             //змінна складання адреси пошти
-            mailaddr = firstLetters + "." + str2;
+            mailaddr = firstLetters + "." + str2 + comboBox1.Text;
 
 
             //перевірка проміжна
-            textBox7.Text = mailaddr;
+            textBox4.Text = mailaddr;
+
+            if (comboBox1.Text.Length == 0)
+            {
+                MessageBox.Show("Оберіть домен", "Помилка!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
 
 
             string pass = GetPass(8);
@@ -144,14 +151,12 @@ namespace WinFormsApp1
             saveFileDialog1.FileName = curdate;
             if (saveFileDialog1.ShowDialog() == DialogResult.Cancel)
                 return;
-            // получаем выбранный файл
+           
             label7.Text = saveFileDialog1.FileName;
             string filename1 = saveFileDialog1.FileName;
 
 
-            // сохраняем текст в файл
-            // System.IO.File.WriteAllText(filename, textBox1.Text);
-            // MessageBox.Show("Файл сохранен");
+            
             StreamWriter f_out = new StreamWriter(filename1, true);
             f_out.WriteLine("First Name [Required],Last Name [Required],Email Address [Required],Password [Required],Password Hash Function [UPLOAD ONLY],Org Unit Path [Required],New Primary Email [UPLOAD ONLY],Recovery Email,Home Secondary Email,Work Secondary Email,Recovery Phone [MUST BE IN THE E.164 FORMAT],Work Phone,Home Phone,Mobile Phone,Work Address,Home Address,Employee ID,Employee Type,Employee Title,Manager Email,Department,Cost Center,Building ID,Floor Name,Floor Section,Change Password at Next Sign-In,New Status [UPLOAD ONLY]");
             f_out.Close();
@@ -181,5 +186,6 @@ namespace WinFormsApp1
 
 
         }
+
     }
 }
