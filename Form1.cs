@@ -17,14 +17,13 @@ namespace WinFormsApp1
         public Form1()
         {
             InitializeComponent();
+            Text = "Google Mail CSV Creator";
             saveFileDialog1.FileName = "";
             openFileDialog1.FileName = "";
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
 
         }
+
+        
 
         private void настройкаToolStripMenuItem_Click(object sender, EventArgs e)
         {
