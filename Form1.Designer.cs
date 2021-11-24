@@ -187,12 +187,6 @@ namespace WinFormsApp1
             resources.ApplyResources(this.label7, "label7");
             this.label7.Name = "label7";
             // 
-            // button2
-            // 
-            resources.ApplyResources(this.button2, "button2");
-            this.button2.Name = "button2";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
             // Form1
             // 
