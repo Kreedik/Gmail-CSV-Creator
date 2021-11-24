@@ -131,6 +131,9 @@
   <data name="&gt;&gt;textBox3.ZOrder" xml:space="preserve">
     <value>16</value>
   </data>
+  <metadata name="textBox4.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="textBox4.Location" type="System.Drawing.Point, System.Drawing">
     <value>89, 130</value>
   </data>
@@ -139,9 +142,6 @@
   </data>
   <data name="textBox4.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
-  </data>
-  <data name="textBox4.Text" xml:space="preserve">
-    <value>testkreed@ctois.sumdu.edu.ua</value>
   </data>
   <data name="&gt;&gt;textBox4.Name" xml:space="preserve">
     <value>textBox4</value>

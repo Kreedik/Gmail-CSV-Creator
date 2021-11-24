@@ -79,11 +79,16 @@ namespace WinFormsApp1
             string val2 = textBox1.Text;
             TranslitMethods.Translitter trn2 = new TranslitMethods.Translitter();
             string str2 = trn2.Translit(val2, TranslitMethods.TranslitType.Gost);
+
             //змінна складання адреси пошти
-            mailaddr = firstLetters + "." + str2 + comboBox1.Text;
+            if (comboBox1.Text.Length == 0)
+            return;
+            else
 
+             mailaddr = firstLetters + "." + str2 + comboBox1.Text;
+            
 
-            //перевірка проміжна
+            //результат
             textBox4.Text = mailaddr;
 
             if (comboBox1.Text.Length == 0)
