@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using System.Diagnostics;
 
 namespace WinFormsApp1
 {
@@ -134,6 +135,11 @@ namespace WinFormsApp1
             StreamWriter f_out = new StreamWriter(filename1, true);
             f_out.WriteLine("First Name [Required],Last Name [Required],Email Address [Required],Password [Required],Password Hash Function [UPLOAD ONLY],Org Unit Path [Required],New Primary Email [UPLOAD ONLY],Recovery Email,Home Secondary Email,Work Secondary Email,Recovery Phone [MUST BE IN THE E.164 FORMAT],Work Phone,Home Phone,Mobile Phone,Work Address,Home Address,Employee ID,Employee Type,Employee Title,Manager Email,Department,Cost Center,Building ID,Floor Name,Floor Section,Change Password at Next Sign-In,New Status [UPLOAD ONLY]");
             f_out.Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Process.Start(new ProcessStartInfo(openFileDialog1.FileName) { UseShellExecute = true });
         }
     }
 }
