@@ -55,7 +55,6 @@ namespace WinFormsApp1
             this.label7 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.label8 = new System.Windows.Forms.Label();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -199,11 +198,6 @@ namespace WinFormsApp1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
-            // label8
-            // 
-            resources.ApplyResources(this.label8, "label8");
-            this.label8.Name = "label8";
-            // 
             // textBox7
             // 
             resources.ApplyResources(this.textBox7, "textBox7");
@@ -215,7 +209,6 @@ namespace WinFormsApp1
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.label8);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.checkBox1);
@@ -270,7 +263,6 @@ namespace WinFormsApp1
         private System.Windows.Forms.ToolStripSeparator toolStripMenuItem2;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.ToolStripMenuItem транслітToolStripMenuItem;
-        private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox textBox7;
     }
 }
