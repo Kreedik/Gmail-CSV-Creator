@@ -66,7 +66,7 @@ namespace WinFormsApp1
         {
             //змінна з адресою пошти
             string mailaddr = "";
-            string domain = "";
+            
             //транслітерація імені
             string val = textBox2.Text;
             TranslitMethods.Translitter trn = new TranslitMethods.Translitter();
@@ -80,6 +80,11 @@ namespace WinFormsApp1
             TranslitMethods.Translitter trn2 = new TranslitMethods.Translitter();
             string str2 = trn2.Translit(val2, TranslitMethods.TranslitType.Gost);
 
+            if (comboBox1.Text.Length == 0)
+            {
+                MessageBox.Show("Оберіть домен", "Помилка!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
             //змінна складання адреси пошти
             if (comboBox1.Text.Length == 0)
             return;
@@ -91,11 +96,7 @@ namespace WinFormsApp1
             //результат
             textBox4.Text = mailaddr;
 
-            if (comboBox1.Text.Length == 0)
-            {
-                MessageBox.Show("Оберіть домен", "Помилка!", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
+            
 
 
             string pass = GetPass(8);
