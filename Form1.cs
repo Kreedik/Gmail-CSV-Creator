@@ -137,7 +137,18 @@ namespace WinFormsApp1
             f_out.Close();
         }
 
-        
-        
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (openFileDialog1.FileName.Length == 0 && saveFileDialog1.FileName.Length == 0)
+            {
+                MessageBox.Show("Файл не обрано або не створено!", "Помилка!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            else if (openFileDialog1.FileName.Length > 0) 
+                Process.Start(new ProcessStartInfo(openFileDialog1.FileName) { UseShellExecute = true });
+            else if (saveFileDialog1.FileName.Length > 0)
+                Process.Start(new ProcessStartInfo(saveFileDialog1.FileName) { UseShellExecute = true });
+            
+        }
     }
 }

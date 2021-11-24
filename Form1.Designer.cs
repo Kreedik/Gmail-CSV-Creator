@@ -102,43 +102,43 @@ namespace WinFormsApp1
             // 
             // menuStrip1
             // 
-            resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.настройкаToolStripMenuItem});
+            resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.Name = "menuStrip1";
             // 
             // настройкаToolStripMenuItem
             // 
-            resources.ApplyResources(this.настройкаToolStripMenuItem, "настройкаToolStripMenuItem");
             this.настройкаToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.створитиToolStripMenuItem,
             this.відкритиToolStripMenuItem,
             this.toolStripMenuItem2,
             this.вихідToolStripMenuItem});
             this.настройкаToolStripMenuItem.Name = "настройкаToolStripMenuItem";
+            resources.ApplyResources(this.настройкаToolStripMenuItem, "настройкаToolStripMenuItem");
             this.настройкаToolStripMenuItem.Click += new System.EventHandler(this.настройкаToolStripMenuItem_Click);
             // 
             // створитиToolStripMenuItem
             // 
-            resources.ApplyResources(this.створитиToolStripMenuItem, "створитиToolStripMenuItem");
             this.створитиToolStripMenuItem.Name = "створитиToolStripMenuItem";
+            resources.ApplyResources(this.створитиToolStripMenuItem, "створитиToolStripMenuItem");
             this.створитиToolStripMenuItem.Click += new System.EventHandler(this.створитиToolStripMenuItem_Click);
             // 
             // відкритиToolStripMenuItem
             // 
-            resources.ApplyResources(this.відкритиToolStripMenuItem, "відкритиToolStripMenuItem");
             this.відкритиToolStripMenuItem.Name = "відкритиToolStripMenuItem";
+            resources.ApplyResources(this.відкритиToolStripMenuItem, "відкритиToolStripMenuItem");
             this.відкритиToolStripMenuItem.Click += new System.EventHandler(this.відкритиToolStripMenuItem_Click);
             // 
             // toolStripMenuItem2
             // 
-            resources.ApplyResources(this.toolStripMenuItem2, "toolStripMenuItem2");
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            resources.ApplyResources(this.toolStripMenuItem2, "toolStripMenuItem2");
             // 
             // вихідToolStripMenuItem
             // 
-            resources.ApplyResources(this.вихідToolStripMenuItem, "вихідToolStripMenuItem");
             this.вихідToolStripMenuItem.Name = "вихідToolStripMenuItem";
+            resources.ApplyResources(this.вихідToolStripMenuItem, "вихідToolStripMenuItem");
             this.вихідToolStripMenuItem.Click += new System.EventHandler(this.вихідToolStripMenuItem_Click_1);
             // 
             // label2
@@ -173,20 +173,21 @@ namespace WinFormsApp1
             this.checkBox1.UseVisualStyleBackColor = true;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
-            // saveFileDialog1
-            // 
-            resources.ApplyResources(this.saveFileDialog1, "saveFileDialog1");
-            // 
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
-            resources.ApplyResources(this.openFileDialog1, "openFileDialog1");
             // 
             // label7
             // 
             resources.ApplyResources(this.label7, "label7");
             this.label7.Name = "label7";
             // 
+            // button2
+            // 
+            resources.ApplyResources(this.button2, "button2");
+            this.button2.Name = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Form1
             // 
