@@ -139,6 +139,11 @@ namespace WinFormsApp1
 
         private void button2_Click(object sender, EventArgs e)
         {
+           
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
             if (saveFileDialog1.FileName.Length == 0 && openFileDialog1.FileName.Length == 0)
             {
                 MessageBox.Show("Файл не обрано або не створено!", "Помилка!", MessageBoxButtons.OK, MessageBoxIcon.Error);
