@@ -71,7 +71,7 @@
     <value>126, 22</value>
   </data>
   <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>660, 224</value>
+    <value>660, 228</value>
   </data>
   <data name="button2.Text" xml:space="preserve">
     <value>Пуск...</value>
