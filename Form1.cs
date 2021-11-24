@@ -14,7 +14,7 @@ namespace WinFormsApp1
 {
     public partial class Form1 : Form
     {
-        private string stringToPrint;
+        
         public Form1()
         {
             InitializeComponent();
@@ -151,9 +151,24 @@ namespace WinFormsApp1
             
         }
 
-        
+        private void транслітToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            static string Tr(string s)
+            {
+                StringBuilder ret = new StringBuilder();           
+                string[] ukr = {"а", "б", "в", "г", "ґ", "д", "е", "є", "ж", "з", "и", "і", "ї", "й", "к", "л", "м", "н", "о", "п", "р", "с", "т", "у", "ф", "х", "ц", "ч", "ш", "щ", "ь", "ю", "я" };
+                string[] eng = {"a","b","v","h","g","d","e","ye","zh","z","y","i","yi","j","k","l","m","n","o","p","r","s","t","u","f","kh","ts","ch","sh","shch","yu","ya"};
+          
 
-      
-
+                for (int j = 0; j < s.Length; j++)
+                    for (int i = 0; i < ukr.Length; i++)
+                        if (s.Substring(j, 1) == ukr[i]) 
+                            ret.Append(eng[i]);
+                
+                return ret.ToString();
+            }
+            //for (int i = 0; i<textBox1.Text.Length; i++)
+            textBox7.Text=Tr(textBox1.Text);
+        }
     }
 }
