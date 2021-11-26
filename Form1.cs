@@ -128,7 +128,16 @@ namespace WinFormsApp1
                 StreamWriter f_out = new StreamWriter(filename2, true);
                 f_out.WriteLine(textBox1.Text + "," + textBox2.Text + " " + textBox3.Text + "," + textBox4.Text + "," + pass + ",,/,," + textBox5.Text + ",,," + textBox6.Text + ",,,,,,,,,,,,,,," + ch + ",");
                 f_out.Close();
-                }
+                string filename5 = saveFileDialog2.FileName;
+                StreamWriter doc_out1 = new StreamWriter(filename5, true, Encoding.Unicode);
+                doc_out1.WriteLine(textBox1.Text + " " + textBox2.Text + " " + textBox3.Text);
+                doc_out1.WriteLine(mailaddr);
+                doc_out1.WriteLine(pass);
+                doc_out1.WriteLine("//------------------------------------------------------------------//");
+                doc_out1.Close();
+                richTextBox1.Text = textBox1.Text + " " + textBox2.Text + " " + textBox3.Text + "\n" + mailaddr + "\n" + pass + "\n" + "//------------------------------------------------------------------//" + "\n" + textBox5.Text + "\n";
+                
+            }
                         
         }
 
@@ -159,12 +168,21 @@ namespace WinFormsApp1
            
             label7.Text = saveFileDialog1.FileName;
             string filename1 = saveFileDialog1.FileName;
-
-
-            
+                        
             StreamWriter f_out = new StreamWriter(filename1, true);
             f_out.WriteLine("First Name [Required],Last Name [Required],Email Address [Required],Password [Required],Password Hash Function [UPLOAD ONLY],Org Unit Path [Required],New Primary Email [UPLOAD ONLY],Recovery Email,Home Secondary Email,Work Secondary Email,Recovery Phone [MUST BE IN THE E.164 FORMAT],Work Phone,Home Phone,Mobile Phone,Work Address,Home Address,Employee ID,Employee Type,Employee Title,Manager Email,Department,Cost Center,Building ID,Floor Name,Floor Section,Change Password at Next Sign-In,New Status [UPLOAD ONLY]");
             f_out.Close();
+
+            saveFileDialog2.Filter = "TXT file(*.txt)|*.txt";
+            saveFileDialog2.FileName = curdate;
+            if (saveFileDialog2.ShowDialog() == DialogResult.Cancel)
+                return;
+            string filename4 = saveFileDialog2.FileName;
+            StreamWriter doc_out = new StreamWriter(filename4, true, Encoding.Unicode);
+            doc_out.WriteLine("Список створених поштових скриньок:");
+            doc_out.Close();
+           
+
         }
 
         private void button2_Click(object sender, EventArgs e)
