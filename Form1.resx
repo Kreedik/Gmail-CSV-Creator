@@ -546,10 +546,382 @@
     <value>2</value>
   </data>
   <data name="comboBox1.Items" xml:space="preserve">
-    <value>@ctois.sumdu.edu.ua</value>
+    <value>@ahch.sumdu.edu.ua</value>
   </data>
   <data name="comboBox1.Items1" xml:space="preserve">
+    <value>@aph.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items2" xml:space="preserve">
+    <value>@armg.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items3" xml:space="preserve">
+    <value>@aspd.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items4" xml:space="preserve">
+    <value>@biem.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items5" xml:space="preserve">
+    <value>@biofarm.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items6" xml:space="preserve">
+    <value>@buh.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items7" xml:space="preserve">
+    <value>@cabinet.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items8" xml:space="preserve">
     <value>@cct.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items9" xml:space="preserve">
+    <value>@chem.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items10" xml:space="preserve">
+    <value>@cis.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items11" xml:space="preserve">
+    <value>@cnti.sumdu.edu.ua	</value>
+  </data>
+  <data name="comboBox1.Items12" xml:space="preserve">
+    <value>@congress.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items13" xml:space="preserve">
+    <value>@crkp.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items14" xml:space="preserve">
+    <value>@cs.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items15" xml:space="preserve">
+    <value>@cshostka.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items16" xml:space="preserve">
+    <value>@ctdgroupe.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items17" xml:space="preserve">
+    <value>@ctois.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items18" xml:space="preserve">
+    <value>@dcs.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items19" xml:space="preserve">
+    <value>@def.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items20" xml:space="preserve">
+    <value>@dir.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items21" xml:space="preserve">
+    <value>@dl.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items22" xml:space="preserve">
+    <value>@drl.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items23" xml:space="preserve">
+    <value>@dtsp.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items24" xml:space="preserve">
+    <value>@ecolog.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items25" xml:space="preserve">
+    <value>@econ.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items26" xml:space="preserve">
+    <value>@ekt.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items27" xml:space="preserve">
+    <value>@el.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items28" xml:space="preserve">
+    <value>@elearning.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items29" xml:space="preserve">
+    <value>@elit.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items30" xml:space="preserve">
+    <value>@endsi.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items31" xml:space="preserve">
+    <value>@etech.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items32" xml:space="preserve">
+    <value>@examenarium.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items33" xml:space="preserve">
+    <value>@fem.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items34" xml:space="preserve">
+    <value>@finance.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items35" xml:space="preserve">
+    <value>@foreign.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items36" xml:space="preserve">
+    <value>@fpkpo.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items37" xml:space="preserve">
+    <value>@fpkv.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items38" xml:space="preserve">
+    <value>@fpmo.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items39" xml:space="preserve">
+    <value>@gf.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items40" xml:space="preserve">
+    <value>@gseo.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items41" xml:space="preserve">
+    <value>@ias.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items42" xml:space="preserve">
+    <value>@id.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items43" xml:space="preserve">
+    <value>@ifsk.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items44" xml:space="preserve">
+    <value>@inform.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items45" xml:space="preserve">
+    <value>@ishostka.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items46" xml:space="preserve">
+    <value>@it.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items47" xml:space="preserve">
+    <value>@itp.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items48" xml:space="preserve">
+    <value>@itsd.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items49" xml:space="preserve">
+    <value>@job.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items50" xml:space="preserve">
+    <value>@journ.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items51" xml:space="preserve">
+    <value>@kanc.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items52" xml:space="preserve">
+    <value>@khkipt.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items53" xml:space="preserve">
+    <value>@kinf.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items54" xml:space="preserve">
+    <value>@kitchen.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items55" xml:space="preserve">
+    <value>@kmc.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items56" xml:space="preserve">
+    <value>@kmm.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items57" xml:space="preserve">
+    <value>@ksu.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items58" xml:space="preserve">
+    <value>@kttf.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items59" xml:space="preserve">
+    <value>@kvp.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items60" xml:space="preserve">
+    <value>@library.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items61" xml:space="preserve">
+    <value>@linet.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items62" xml:space="preserve">
+    <value>@lshostka.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items63" xml:space="preserve">
+    <value>@macro.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items64" xml:space="preserve">
+    <value>@maimo.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items65" xml:space="preserve">
+    <value>@management.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items66" xml:space="preserve">
+    <value>@mcac.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items67" xml:space="preserve">
+    <value>@med.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items68" xml:space="preserve">
+    <value>@media.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items69" xml:space="preserve">
+    <value>@metod.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items70" xml:space="preserve">
+    <value>@mindip.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items71" xml:space="preserve">
+    <value>@mk.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items72" xml:space="preserve">
+    <value>@mob.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items73" xml:space="preserve">
+    <value>@mpig.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items74" xml:space="preserve">
+    <value>@mss.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items75" xml:space="preserve">
+    <value>@nap.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items76" xml:space="preserve">
+    <value>@nigeria.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items77" xml:space="preserve">
+    <value>@nov.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items78" xml:space="preserve">
+    <value>@ntsa.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items79" xml:space="preserve">
+    <value>@oeph.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items80" xml:space="preserve">
+    <value>@ok.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items81" xml:space="preserve">
+    <value>@omdm.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items82" xml:space="preserve">
+    <value>@omim.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items83" xml:space="preserve">
+    <value>@omu.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items84" xml:space="preserve">
+    <value>@opcps.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items85" xml:space="preserve">
+    <value>@opm.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items86" xml:space="preserve">
+    <value>@personnel.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items87" xml:space="preserve">
+    <value>@pfo.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items88" xml:space="preserve">
+    <value>@pgm.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items89" xml:space="preserve">
+    <value>@phe.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items90" xml:space="preserve">
+    <value>@pk.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items91" xml:space="preserve">
+    <value>@pmtkm.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items92" xml:space="preserve">
+    <value>@pohnp.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items93" xml:space="preserve">
+    <value>@pom.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items94" xml:space="preserve">
+    <value>@profcom.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items95" xml:space="preserve">
+    <value>@publishing.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items96" xml:space="preserve">
+    <value>@qs.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items97" xml:space="preserve">
+    <value>@rank.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items98" xml:space="preserve">
+    <value>@ranking.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items99" xml:space="preserve">
+    <value>@rectorat.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items100" xml:space="preserve">
+    <value>@rvv.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items101" xml:space="preserve">
+    <value>@sci.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items102" xml:space="preserve">
+    <value>@shl.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items103" xml:space="preserve">
+    <value>@socio.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items104" xml:space="preserve">
+    <value>@sport.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items105" xml:space="preserve">
+    <value>@srilanka.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items106" xml:space="preserve">
+    <value>@stud.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items107" xml:space="preserve">
+    <value>@student.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items108" xml:space="preserve">
+    <value>@studmistechko.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items109" xml:space="preserve">
+    <value>@study.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items110" xml:space="preserve">
+    <value>@tender.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items111" xml:space="preserve">
+    <value>@teset.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items112" xml:space="preserve">
+    <value>@tmvi.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items113" xml:space="preserve">
+    <value>@tv.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items114" xml:space="preserve">
+    <value>@uabs.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items115" xml:space="preserve">
+    <value>@ulab.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items116" xml:space="preserve">
+    <value>@viod.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items117" xml:space="preserve">
+    <value>@vlas.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items118" xml:space="preserve">
+    <value>@vop.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items119" xml:space="preserve">
+    <value>@vpr.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items120" xml:space="preserve">
+    <value>@vsr.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items121" xml:space="preserve">
+    <value>@webis.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items122" xml:space="preserve">
+    <value>@yur.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items123" xml:space="preserve">
+    <value>@yurfak.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items124" xml:space="preserve">
+    <value>@yurist.sumdu.edu.ua</value>
+  </data>
+  <data name="comboBox1.Items125" xml:space="preserve">
+    <value>@zaoch.sumdu.edu.ua</value>
   </data>
   <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>89, 159</value>
