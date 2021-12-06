@@ -210,5 +210,68 @@ namespace WinFormsApp1
 
         }
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+            //змінна з адресою пошти
+            string mailaddr = "";
+            if (comboBox1.Text.Length == 0)
+            {
+                MessageBox.Show("Оберіть домен", "Помилка!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            //змінна складання адреси пошти
+            if (comboBox1.Text.Length == 0)
+                return;
+            else
+                mailaddr = textBox4.Text + comboBox1.Text;
+
+
+            
+
+            string pass = GetPass(8);
+            string ch;
+            if (checkBox1.Checked == true)
+                ch = "TRUE";
+            else
+                ch = "0";
+
+
+            if (saveFileDialog1.FileName.Length == 0 && openFileDialog1.FileName.Length == 0)
+            {
+                MessageBox.Show("Файл не обрано або не створено!", "Помилка!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            if (saveFileDialog1.FileName.Length == 0)
+            {
+
+                string filename3 = openFileDialog1.FileName;
+                StreamWriter f_out = new StreamWriter(filename3, true);
+                f_out.WriteLine(textBox1.Text + "," + textBox2.Text + " " + textBox3.Text + "," + textBox4.Text + comboBox1.Text + "," + pass + ",,/,," + textBox5.Text + ",,," + textBox6.Text + ",,,,,,,,,,,,,,," + ch + ",");
+                f_out.Close();
+            }
+            else
+            {
+
+
+                string filename2 = saveFileDialog1.FileName;
+                StreamWriter f_out = new StreamWriter(filename2, true);
+                f_out.WriteLine(textBox1.Text + "," + textBox2.Text + " " + textBox3.Text + "," + textBox4.Text + comboBox1.Text + "," + pass + ",,/,," + textBox5.Text + ",,," + textBox6.Text + ",,,,,,,,,,,,,,," + ch + ",");
+                f_out.Close();
+                string filename5 = saveFileDialog2.FileName;
+                StreamWriter doc_out1 = new StreamWriter(filename5, true, Encoding.Unicode);
+                doc_out1.WriteLine(textBox1.Text + " " + textBox2.Text + " " + textBox3.Text);
+                doc_out1.WriteLine(mailaddr);
+                doc_out1.WriteLine(pass);
+                doc_out1.WriteLine("//------------------------------------------------------------------//");
+                doc_out1.Close();
+                richTextBox1.Text = textBox1.Text + " " + textBox2.Text + " " + textBox3.Text + "\n" + mailaddr + "\n" + pass + "\n" + "//------------------------------------------------------------------//" + "\n" + textBox5.Text + "\n";
+
+            }
+
+
+
+
+        }
     }
 }
