@@ -276,7 +276,7 @@ namespace WinFormsApp1
         
         private void проПрограмуToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Програма для швидкого створення CSV-файлів GOOGLE Mailbox Mass Creator", "Про програму Gmail CSV creator", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Програма для швидкого створення CSV-файлів GOOGLE Mailbox Mass Creator. (с)Усі права захищені. Права належать Ципліну Дмитру Олександровичу, Україна, місто Суми.", "Про програму Gmail CSV creator", MessageBoxButtons.OK, MessageBoxIcon.Information);
             return;
         }
     }
